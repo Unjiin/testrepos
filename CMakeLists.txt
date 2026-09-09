@@ -4,4 +4,6 @@ project(testrepos)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(testrepos
-        main.cpp)
+        main.cpp
+        Triangle.h
+        Triangle.cpp)
