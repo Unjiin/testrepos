@@ -6,8 +6,8 @@
 #define TESTREPOS_TRIANGLE_H
 class Triangle {
 private:
-    double side{};
-    double height{};
+    double side;
+    double height;
 
 public:
     Triangle(double, double);
